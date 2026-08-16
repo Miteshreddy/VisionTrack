@@ -1,0 +1,58 @@
+.vscode/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Model weights (not committed; downloaded on first run)
+weights/
+*.pt
+*.onnx
+*.engine
+*.torchscript
+
+# Experiment output
+runs/
+outputs/
+logs/
+*.log
+
+# Videos (uploaded files)
+videos/
+
+# Uploaded temp files
+visiontrack_uploads/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# Evaluation tools
+val_utils/
+
+# Build / distribution
+*.zip
+dist/
+build/
+*.egg-info/
+
+# Export formats
+*_openvino_model/
+
+# Node (frontend deps, if ever added)
+node_modules/
+
+# Interactive plots
+*.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+*.swp
